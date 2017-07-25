@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
 
 class GetImageButton extends Component {
-
+  constructor(props){
+    super(props)
+  }
   render(){
 
     return (
       <div>
-        <h1>getimagebutton</h1>
+        <button type="submit">GET IMAGES</button>
       </div>
     )
   }
